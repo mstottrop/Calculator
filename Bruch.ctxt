@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=pZaehler\ pNenner
+comment0.target=Bruch(int,\ int)
+comment1.params=
+comment1.target=int\ zaehler()
+comment2.params=
+comment2.target=int\ nenner()
+comment3.params=zahl1\ zahl2
+comment3.target=int\ ggt(int,\ int)
+comment4.params=
+comment4.target=void\ kuerze()
+numComments=5

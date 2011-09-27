@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bruchrechner()
+comment1.params=bruch1\ bruch2
+comment1.target=Bruch\ Summe(Bruch,\ Bruch)
+comment2.params=bruch1\ bruch2
+comment2.target=Bruch\ Differenz(Bruch,\ Bruch)
+comment3.params=bruch1\ bruch2
+comment3.target=Bruch\ Quotient(Bruch,\ Bruch)
+comment4.params=bruch1\ bruch2
+comment4.target=Bruch\ Produkt(Bruch,\ Bruch)
+numComments=5

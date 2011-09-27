@@ -1,0 +1,58 @@
+
+/**
+ * @
+ * @Final
+ */
+public class Bruchrechner
+{
+
+    public Bruchrechner()
+    {
+
+    }
+
+    public Bruch Summe(Bruch bruch1, Bruch bruch2)
+    {
+        int zZaehler, zNenner;
+        zZaehler = bruch2.zaehler() * bruch1.nenner() + bruch1.zaehler() * bruch2.nenner();
+        zNenner = bruch2.nenner() * bruch1.nenner();
+
+        Bruch bt = new Bruch(zZaehler, zNenner);
+        bt.kuerze();
+
+        return bt;
+    }
+
+    public Bruch Differenz(Bruch br, Bruch pr)
+    {
+        return Summe( new Bruch(br.zaehler(), br.nenner()) , new Bruch (-pr.zaehler(),pr.nenner()));
+
+    }
+
+    public Bruch Quotient(Bruch br, Bruch pr)
+    {
+        int zZaehler, zNenner;
+
+        zZaehler = pr.nenner() * br.zaehler();
+        zNenner = pr.zaehler() * br.nenner();
+
+        Bruch bt = new Bruch(zZaehler, zNenner);
+        bt.kuerze();
+
+        return bt;
+    }
+
+    public Bruch Produkt(Bruch br, Bruch pr)
+    {
+        int zZaehler, zNenner;
+
+        zNenner = pr.nenner() * br.nenner();
+        zZaehler = pr.zaehler() * br.zaehler();
+
+        Bruch bt = new Bruch(zZaehler, zNenner);
+        bt.kuerze();
+
+        return bt;
+    }
+
+}
